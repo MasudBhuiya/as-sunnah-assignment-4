@@ -61,16 +61,16 @@ cursor: pointer;
 
 .banner{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .banner-title{
-    font-size: 74px;
-    max-width: 600px;
+    font-size: 58px;
+    max-width: 500px;
 }
 .banner-sub-title{
     font-size: 20px;
-    max-width: 500px;
+    max-width: 450px;
     margin: 20px 0;
     line-height: 30px;
 }
@@ -81,4 +81,26 @@ cursor: pointer;
     font-size: 25px;
     border-radius: 50%;
     margin-left: 40px;
+}
+.banner-star{
+    font-size: 20px;
+    font: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.fa-star{
+    color: gold;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-comment{
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
 }
