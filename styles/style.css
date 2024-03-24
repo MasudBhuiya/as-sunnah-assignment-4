@@ -1,0 +1,84 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+/* header  */
+.header{
+    background: #ECF9FF;
+    height: 100vh;
+}
+.header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* nav style  */
+.nav-name{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.nav-b{
+color: #00E5CC;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+    border-radius: 8px;
+    padding: 0 20px;
+    background-color: #fff;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
+.nav-btn{
+    padding:18px 25px;
+    border-radius: 6px;
+background: var(--Primary, #060640);
+color: white;
+font: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.nav-btn:hover{
+    background: var(--Primary, #45455a);
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-title{
+    font-size: 74px;
+    max-width: 600px;
+}
+.banner-sub-title{
+    font-size: 20px;
+    max-width: 500px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.fa-play{
+    color: #00E5CC;
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
