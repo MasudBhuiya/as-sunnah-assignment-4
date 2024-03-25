@@ -6,12 +6,13 @@
 /* header  */
 .header{
     background: #ECF9FF;
-    height: 100vh;
+    height: calc(100vh - 50px);
+    padding-top: 50px;
+
 }
 .header-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 /* nav style  */
@@ -63,6 +64,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    padding: 0 20px;
 }
 .banner-title{
     font-size: 58px;
@@ -103,4 +105,44 @@ cursor: pointer;
     background-color: white;
     padding: 20px;
     margin-top: 50px;
+}
+.banner-img{
+    width: 100%;
+}
+
+/* work style  */
+.work{
+    max-width: 1440px;
+    margin: 120px auto;
+}
+.work-title{
+    font-size: 46px;
+}
+.work-card{
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 0px 30px 50px 0px #e1e1eb;
+    padding:30px;
+}
+.work-card:hover{
+    box-shadow: 0px 10px 20px 0px #a5a5b3;
+}
+.card-img{
+    background-color: #ecf4f8;
+    padding: 12px;
+}
+.card-title{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.card-sub-title{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.work-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 68px;
+    gap: 30px;
+    padding: 0 20px;
 }
