@@ -362,3 +362,25 @@ cursor: pointer;
 
 
 /* iPad responsive design  */
+@media screen and (min-width: 568px) and (max-width: 992px) {
+    .banner-title{
+        font-size: 36px;
+    }
+    .about-container{
+        display: flex;
+        gap: 20px;
+    }
+    .about-img{
+        margin-bottom: 76px;
+    }
+
+    .about-reward{
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+    }
+
+    .newsletter{
+        padding: 20px 0;
+    }
+}
